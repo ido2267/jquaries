@@ -1,0 +1,132 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	direction:rtl;
+	background-color:#999999;	
+}
+
+.all_site{
+	background-color:white;
+	width:890px;
+	margin:0 auto;	
+}
+
+
+
+header{
+	width:100%;
+	height:140px;
+	float:left;
+		
+}
+
+header img{
+	margin:0;
+	float:left;
+}
+
+header nav{
+	width:100%;
+	height:40px;
+	float:left;
+	background-color:#909;	
+}
+
+header nav ul{
+	list-style-type:none;
+	padding:0;
+	
+	margin-right:15px;
+	margin-top:3px;
+	
+}
+
+header nav ul a{
+	color:black;
+}
+
+header nav li{
+	display:inline-block;
+	border: 2px solid black;
+	width:100px;
+	text-align:center;
+	line-height:30px;
+	height:30px;
+	vertical-align:central;
+	
+}
+
+
+
+.main{
+	width:100%;
+	float:left;
+	
+		
+}
+
+.main .side_content
+{
+	width:400px;
+	margin-right:10px;
+	float:right;
+}
+
+.main .form_side{
+	width:350px;
+	background-color:#FC0;
+	float:left;
+	margin-top:25px;
+	margin-left:20px;
+	
+}
+
+.main .form_side .form_top{
+	padding-right:10px;	
+	background-color:#FF9;
+	width:100%;
+	float:left;	
+}
+
+.main .form_side .form_bottom{
+	padding-right:10px;	
+	background-color:#FFCC00;
+	width:100%;
+	float:left;	
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+.main .form_side .form_bottom label{
+	font-size:24px;
+}
+
+.main .form_side .form_bottom input{
+	font-size:24px;
+	width:200px;
+}
+
+.main .form_side .form_bottom button{
+	font-size:24px;
+	margin-top:20px;
+	
+}
+
+footer{
+	width:100%;	
+	height:35px;
+	background-color:#333;
+	color:#FFFFFF;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+}
+
+p.clear {
+    clear: both;
+    height: 0;  /* only necessary for IE */
+    margin: 0;
+    padding: 0;
+}
